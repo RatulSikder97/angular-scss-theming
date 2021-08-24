@@ -13,6 +13,9 @@ import { BookHighlightComponent } from './components/book-highlight/book-highlig
 import { BookmarksComponent } from './components/bookmarks/bookmarks.component';
 import { CommentsComponent } from './components/comments/comments.component';
 import { BookNavigationComponent } from './components/book-navigation/book-navigation.component';
+import { BookFontstyleComponent } from './components/book-fontstyle/book-fontstyle.component';
+import { BookThemeComponent } from './components/book-theme/book-theme.component';
+import { BookLayoutsComponent } from './components/book-layouts/book-layouts.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { BookNavigationComponent } from './components/book-navigation/book-navig
     BookHighlightComponent,
     BookmarksComponent,
     CommentsComponent,
-    BookNavigationComponent
+    BookNavigationComponent,
+    BookFontstyleComponent,
+    BookThemeComponent,
+    BookLayoutsComponent
   ],
   imports: [
     CommonModule,
